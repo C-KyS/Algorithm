@@ -1,5 +1,5 @@
 // 题目链接: https://leetcode.cn/problems/move-zeroes/description/
-
+// 博客链接: https://blog.csdn.net/cyh20041102/article/details/157555987?spm=1011.2415.3001.10575&sharefrom=mp_manage_link
 
 class Solution {
 public:
