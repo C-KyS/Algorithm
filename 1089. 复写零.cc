@@ -1,10 +1,12 @@
 // 题目链接: https://leetcode.cn/problems/duplicate-zeros/submissions/695543316/
 
+#include <vector>
+
 class Solution
 {
 public:
     // 1. 查找最后元素cur, 及des(一般固定为n-1, 特殊情况下不为n-1, 因此des也会变化)
-    int findLastCur(vector<int> &arr, int &input_des)
+    int findLastCur(std::vector<int> &arr, int &input_des)
     {
         int n = arr.size();
         int cur = 0;
@@ -33,7 +35,7 @@ public:
         return cur;
     }
 
-    void duplicateZeros(vector<int> &arr)
+    void duplicateZeros(std::vector<int> &arr)
     {
         int des = -1;
         // 1. 查找最后元素cur, 及des(一般固定为n-1, 特殊情况下不为n-1, 因此des也会变化)

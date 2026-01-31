@@ -1,13 +1,16 @@
 // 题目链接: https://leetcode.cn/problems/move-zeroes/description/
 // 博客链接: https://blog.csdn.net/cyh20041102/article/details/157555987?spm=1011.2415.3001.10575&sharefrom=mp_manage_link
 
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     void exchange(int &a, int &b)
     {
         int tmp = a;
         a=b;
-        b=tmp; 
+        b=tmp; // 交换两个变量的值
     }
 
     void moveZeroes(vector<int>& nums) {
